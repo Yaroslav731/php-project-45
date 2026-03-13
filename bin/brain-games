@@ -1,5 +1,8 @@
 #!/usr/bin/env php
 <?php
+
 require __DIR__ . '/../vendor/autoload.php';
-use function BrainGames\Cli\greeting;
+
+use function Hexlet\Code\greeting;
+
 greeting();
