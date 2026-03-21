@@ -4,3 +4,4 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Yaroslav731_php-project-45&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Yaroslav731_php-project-45)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Yaroslav731_php-project-45&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Yaroslav731_php-project-45)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Yaroslav731_php-project-45&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Yaroslav731_php-project-45)
+[![asciicast](https://asciinema.org/a/UdGWu09SFzZeUENX.swg)](https://asciinema.org/a/UdGWu09SFzZeUENX)
