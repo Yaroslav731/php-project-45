@@ -16,4 +16,7 @@ lint:
 	php bin/brain-even
 
 ./bin/brain-calc:
-	php bin/brain-calc	
+	php bin/brain-calc
+
+./bin/brain-gcd:
+	php bin/brain-gcd
