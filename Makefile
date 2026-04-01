@@ -20,3 +20,6 @@ lint:
 
 ./bin/brain-gcd:
 	php bin/brain-gcd
+
+./bin/brain-progression:
+	php bin/brain-progression
