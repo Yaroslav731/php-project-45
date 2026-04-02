@@ -13,7 +13,7 @@ function findGcd(): void
                 $num2 = random_int(1, 50);
                 $findGcd = gmp_gcd($num1, $num2);
                 $gcd = gmp_strval($findGcd);
-                $rounds[] = ['question' => $num1 . ' ' . $num2, 'answer' => $gcd];
+                $rounds[] = ['question' => "{$num1} {$num2}", 'answer' => $gcd];
     }
     runGame($description, $rounds);
 }
