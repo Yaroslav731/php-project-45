@@ -23,3 +23,6 @@ lint:
 
 ./bin/brain-progression:
 	php bin/brain-progression
+
+./bin/brain-prime:
+	php bin/brain-prime

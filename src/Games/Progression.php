@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace Hexlet\Code;
 
-use function cli\line;
-use function cli\prompt;
-
 function playProgression()
 {
         $description = 'What number is missing in the progression?';

@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace Hexlet\Code;
 
-use function cli\line;
-use function cli\prompt;
-
 function findGcd(): void
 {
         $description = 'Find the greatest common divisor of given numbers.';
