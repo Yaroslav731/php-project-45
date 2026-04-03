@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Hexlet\Code;
+namespace Hexlet\Code\Games;
 
 function isPrime(int $n): bool
 {

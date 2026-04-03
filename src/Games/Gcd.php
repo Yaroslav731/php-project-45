@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Hexlet\Code;
+namespace Hexlet\Code\Games;
 
 function calculateGcd(int $a, int $b): int
 {
