@@ -4,6 +4,16 @@ declare(strict_types=1);
 
 namespace Hexlet\Code;
 
+function calculateGcd(int $a, int $b): int
+{
+    while ($b !== 0) {
+        $remainder = $a % $b;
+        $a = $b;
+        $b = $remainder;
+    }
+        return $a;
+}
+
 function findGcd(): void
 {
         $description = 'Find the greatest common divisor of given numbers.';
@@ -11,9 +21,8 @@ function findGcd(): void
     for ($i = 0; $i < 3; $i++) {
                 $num1 = random_int(1, 50);
                 $num2 = random_int(1, 50);
-                $findGcd = gmp_gcd($num1, $num2);
-                $gcd = gmp_strval($findGcd);
-                $rounds[] = ['question' => "{$num1} {$num2}", 'answer' => $gcd];
+                $gcd = calculateGcd($num1, $num2);
+                $rounds[] = ['question' => "{$num1} {$num2}", 'answer' => (string) $gcd];
     }
     runGame($description, $rounds);
 }
