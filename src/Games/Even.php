@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Hexlet\Code\Games;
 
+use function Hexlet\Code\runGame;
+
 function parityGame()
 {
     $description = ('Answer "yes" if the number is even, otherwise answer "no".');

@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Hexlet\Code\Games;
 
+use function Hexlet\Code\runGame;
+
 function playProgression()
 {
         $description = 'What number is missing in the progression?';

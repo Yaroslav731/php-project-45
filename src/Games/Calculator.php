@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Hexlet\Code\Games;
 
+use function Hexlet\Code\runGame;
+
 function calculatorGame(): void
 {
         $description = ('What is the result of the expression?');

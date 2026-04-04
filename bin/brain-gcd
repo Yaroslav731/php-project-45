@@ -3,6 +3,6 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use function Hexlet\Code\findGcd;
+use function Hexlet\Code\Games\findGcd;
 
 findGcd();

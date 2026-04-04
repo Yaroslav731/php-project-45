@@ -3,6 +3,6 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use function Hexlet\Code\playPrime;
+use function Hexlet\Code\Games\playPrime;
 
 playPrime();
