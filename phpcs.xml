@@ -1,8 +1,12 @@
 <?xml version="1.0"?>
 <ruleset name="HexletCheck">
-    <description>Ignore system files</description>
-    <file>.</file>
-    <exclude-pattern>*/vendor/*</exclude-pattern>
-    <exclude-pattern>*/.github/*</exclude-pattern>
+    <description>Check only project code</description>
+
+    <file>bin</file>
+    <file>src</file>
+
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>.github/*</exclude-pattern>
+    
     <rule ref="PSR12"/>
 </ruleset>
