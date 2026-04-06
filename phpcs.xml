@@ -1,13 +1,12 @@
 <?xml version="1.0"?>
 <ruleset name="PSR12">
-
+    <description>PHP CodeSniffer ruleset for Hexlet Project</description>
     <rule ref="PSR12"/>
-
+    
     <file>src</file>
     <file>bin</file>
 
     <exclude-pattern>*/vendor/*</exclude-pattern>
-    <exclude-pattern>*/code/*</exclude-pattern>
     <exclude-pattern>*/.github/*</exclude-pattern>
-
+    <exclude-pattern>composer-setup.php</exclude-pattern>
 </ruleset>
