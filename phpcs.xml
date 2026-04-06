@@ -6,7 +6,6 @@
     <file>src</file>
     <file>bin</file>
 
-    <!-- ВАЖНО: правильные exclude -->
     <exclude-pattern>*/vendor/*</exclude-pattern>
     <exclude-pattern>*/code/*</exclude-pattern>
     <exclude-pattern>*/.github/*</exclude-pattern>
