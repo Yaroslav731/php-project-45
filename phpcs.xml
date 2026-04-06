@@ -1,12 +1,9 @@
 <?xml version="1.0"?>
-<ruleset name="HexletCheck">
-    <description>Check only project code</description>
-
-    <file>bin</file>
-    <file>src</file>
-
-    <exclude-pattern>vendor/*</exclude-pattern>
-    <exclude-pattern>.github/*</exclude-pattern>
-    
+<ruleset name="Project">
     <rule ref="PSR12"/>
+
+    <file>src</file>
+    <file>bin</file>
+
+    <exclude-pattern>*/.github/*</exclude-pattern>
 </ruleset>
