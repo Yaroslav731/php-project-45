@@ -6,7 +6,7 @@ namespace Hexlet\Code\Games;
 
 use function Hexlet\Code\runGame;
 
-function playProgression()
+function playProgression(): void
 {
         $description = 'What number is missing in the progression?';
         $rounds = [];

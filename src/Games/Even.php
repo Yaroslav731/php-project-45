@@ -6,7 +6,7 @@ namespace Hexlet\Code\Games;
 
 use function Hexlet\Code\runGame;
 
-function parityGame()
+function parityGame(): void
 {
     $description = ('Answer "yes" if the number is even, otherwise answer "no".');
     $rounds = [];
